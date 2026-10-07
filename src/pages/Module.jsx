@@ -180,7 +180,7 @@ function Block({ s }) {
         <section className="card p-5">
           <H>{s.heading}</H>
           <div className="overflow-x-auto -mx-5 px-5">
-            <table className="w-full text-sm border-collapse min-w-[30rem]">
+            <table className={`w-full text-sm border-collapse ${s.cols.length > 2 ? 'min-w-[30rem]' : ''}`}>
               <thead>
                 <tr>{s.cols.map((c, i) => <th key={i} className="text-left eyebrow text-muted pb-2 pr-3">{c}</th>)}</tr>
               </thead>
