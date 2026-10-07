@@ -329,6 +329,145 @@ export const MODULES = [
       },
     ],
   },
+  {
+    id: 'lmsc',
+    num: 6,
+    title: 'Building on LMSC',
+    tagline: 'What you already know, and what camp facilitation adds',
+    icon: 'ArrowLeftRight',
+    objectives: [
+      'Link each LMSC module to camp facilitation',
+      'Recognise the key similarities',
+      'Know the enhancements camp facilitation brings',
+    ],
+    sections: [
+      {
+        type: 'text',
+        heading: 'You are not starting from zero',
+        text: 'The Leadership & Mentoring Skills Course (LMSC) prepared you to lead, teach and debrief cadets. Camp facilitation uses the same foundations, and adds tools for keeping campers safe and helping them learn from activities.',
+      },
+      {
+        type: 'bridge',
+        from: 'Leadership & Mentoring',
+        to: 'The Camp Facilitator',
+        same: [
+          'Situational leadership: adapt your style to the situation. A Camp Facilitator switches between many hats.',
+          'A leader is a role model. “Role Model” is one of the facilitator’s hats.',
+          'Good mentor qualities (patience, mutual trust, commitment) match a good facilitator’s characteristics (patience, integrity, dependability).',
+          'A mentor explores options together instead of giving solutions. A facilitator helps campers find the lesson themselves.',
+        ],
+        adds: [
+          '12 named hats, from Friend to Disciplinarian to Safety Officer.',
+          'A 24-hour duty of care: meals, activities and sleep.',
+          'Safety consciousness and confidentiality as core qualities.',
+          'You are at the front line: you can make or break a camp.',
+        ],
+      },
+      {
+        type: 'bridge',
+        from: 'Basic Teamwork',
+        to: 'Leading an Activity',
+        same: [
+          'Team stages (forming, storming, norming…) are what you watch for as group dynamics.',
+          'SMART goals and planning connect to stating the objectives and setting a target.',
+        ],
+        adds: [
+          'Challenge by choice: participants help set a tentative target.',
+          'A list of what to observe during the activity: mood, leader / follower, teachable moments, problem-solving.',
+          'Missing Person, a technique for setting team objectives.',
+        ],
+      },
+      {
+        type: 'bridge',
+        from: 'Effective Communication',
+        to: 'Briefing and questioning',
+        same: [
+          'Eye contact and body language matter in both.',
+          'Active listening: the facilitator is a Listener, and uses silence to give campers time to speak.',
+          'Be precise and concise. Briefings should be clear and to the point.',
+          'Know your purpose. A briefing states the objectives.',
+        ],
+        adds: [
+          'Questioning techniques: start with a description question, follow a closed question with an open one, be specific.',
+          'Positioning of the facilitator, and not letting participants fiddle with props during the briefing.',
+          'Talking Knots and Roving Mic, to manage who speaks.',
+        ],
+      },
+      {
+        type: 'bridge',
+        from: 'Reflection & Debriefing',
+        to: 'Facilitation and Suggested Questions',
+        same: [
+          'What? So What? Now What? lines up with Kolb’s Reviewing, Concluding and Planning stages, and with the 5 questions.',
+          'Debrief soon after the activity, sitting within the group or in a circle.',
+          'A two-way discussion, not a lecture.',
+        ],
+        adds: [
+          'Kolb’s Experiential Learning Cycle, with transfer of learning to school and life.',
+          'Front loading: set up the learning before the activity.',
+          'Process time-outs to debrief during a challenge, not only after it.',
+          'Six stages of processing, with suggested questions for each.',
+          'Active techniques such as Happy Chart, Horse Shoe and Spokes.',
+          'Wrap up with consolidating questions, so campers judge for themselves (LMSC used the Sandwich Method feedback).',
+        ],
+      },
+      {
+        type: 'bridge',
+        from: 'Method of Instruction',
+        to: 'Leading an Activity',
+        same: [
+          'Formation (comfort, avoid facing the sun, ventilation, a safe place) matches the area activity check (sun / shade / shelter, comfort, danger).',
+          'Introduction and class rules match stating the constraints and rules in the briefing.',
+          'Explaining the importance matches stating the objectives.',
+          'In Q&A, give participants time to think. In facilitation, use silence.',
+        ],
+        adds: [
+          'General checks before every activity: headcount, anyone unwell, hydration, accessories, attire.',
+          'MOI teaches a skill. Facilitation draws out learning: less telling, more asking. Instructor is only one of the 12 hats.',
+        ],
+      },
+      {
+        type: 'bridge',
+        from: 'Lesson Planning',
+        to: 'Risk Assessment (RAMS)',
+        same: [
+          'Safety precautions and contingency plans (“what if it rains?”).',
+          'Equipment and logistics for the group.',
+          'Clear objectives guide the whole plan.',
+          'Know your audience (VAK). Read the mood of the group.',
+        ],
+        adds: [
+          'RAMS: a system to identify hazards and reduce risks to an acceptable level.',
+          'Risk includes emotional harm, not only physical injury.',
+          'PEEP to identify risks: People, Environment, Equipment, Process.',
+          'The 4 Ts to manage them: Tolerate, Treat, Transfer, Terminate.',
+        ],
+      },
+      {
+        type: 'table',
+        heading: 'At a glance',
+        cols: ['LMSC', 'Camp facilitation'],
+        rows: [
+          ['Leader & mentor', 'Facilitator wearing 12 hats, with a 24-hour duty of care'],
+          ['SMART goals', 'Objectives, with challenge by choice'],
+          ['Speak, write, listen well', 'Brief clearly, then ask good questions'],
+          ['What? So What? Now What?', 'Kolb’s cycle, the 5 questions, 6 stages of processing'],
+          ['Sandwich Method', 'Consolidating questions; campers judge for themselves'],
+          ['MOI formation', 'General checks and area activity check'],
+          ['Safety precautions', 'RAMS: PEEP and the 4 Ts'],
+        ],
+      },
+      {
+        type: 'points',
+        heading: 'The big shift',
+        points: [
+          'In LMSC you mostly lead and teach: you tell, show and give feedback.',
+          'In camp facilitation you mostly guide: you set up the experience, keep it safe, and ask questions so campers find the learning themselves.',
+          'Keep doing LMSC self-reflection after each activity. The camp notes don’t cover debriefing yourself, but it still applies.',
+        ],
+      },
+    ],
+  },
 ]
 
 export const moduleById = Object.fromEntries(MODULES.map((m) => [m.id, m]))

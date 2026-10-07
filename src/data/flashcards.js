@@ -52,4 +52,11 @@ export const FLASHCARDS = [
   { id: 'q5', module: 'questions', front: '“What was your intention by that action? Did you get that result?” Which stage?', back: 'From processing to generalising.' },
   { id: 'q6', module: 'questions', front: '“How could you apply that to your school / club setting?” Which stage?', back: 'Generalising leads to applying.' },
   { id: 'q7', module: 'questions', front: '“What were the plus / minus points? What changes would you make?” Which stage?', back: 'Consolidating.' },
+
+  { id: 'b1', module: 'lmsc', front: 'LMSC’s What? So What? Now What? matches which Kolb stages?', back: 'Reviewing (What?) · Concluding (So What?) · Planning (Now What?).' },
+  { id: 'b2', module: 'lmsc', front: 'LMSC wraps up with the Sandwich Method. How does camp facilitation wrap up?', back: 'With consolidating questions, e.g. “What were the plus / minus points?”, so campers judge for themselves.' },
+  { id: 'b3', module: 'lmsc', front: 'Which MOI step matches the area activity check?', back: 'Formation: comfort, avoid facing the sun, ventilation, a safe place. The area check covers sun / shade / shelter, suitability, comfort and danger.' },
+  { id: 'b4', module: 'lmsc', front: 'Lesson planning has safety precautions. What does camp facilitation add?', back: 'RAMS: identify risks with PEEP, then manage them with the 4 Ts. Risk includes emotional harm.' },
+  { id: 'b5', module: 'lmsc', front: 'SMART goals in LMSC. What does camp add to setting targets?', back: 'Challenge by choice: participants help set a tentative target.' },
+  { id: 'b6', module: 'lmsc', front: 'What is the big shift from LMSC to camp facilitation?', back: 'From mostly telling and teaching, to guiding: set up the experience, keep it safe, and ask questions so campers find the learning.' },
 ]

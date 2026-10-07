@@ -1,6 +1,6 @@
 import { useParams, Navigate, Link } from 'react-router-dom'
 import { useState } from 'react'
-import { ArrowRight, Check, ChevronDown, Quote } from 'lucide-react'
+import { ArrowRight, Check, ChevronDown, Plus, Quote } from 'lucide-react'
 import { MODULES, moduleById } from '../data/modules'
 import { useProgress } from '../hooks/useProgress'
 import { Page, PageHeader, Button } from '../components/ui'
@@ -212,6 +212,29 @@ function Block({ s }) {
             </ol>
           </div>
           <p className="text-sm text-muted mt-3">The cycle runs 1 → 2 → 3 → 4 and back to 1. Each turn carries learning beyond the activity (transfer of learning).</p>
+        </section>
+      )
+    case 'bridge':
+      return (
+        <section className="card overflow-hidden">
+          <div className="bg-navy text-on-navy px-5 py-4">
+            <p className="eyebrow text-gold">LMSC → Camp</p>
+            <h2 className="display uppercase text-[1.6rem] leading-tight mt-1">{s.from} <span className="text-gold">→</span> {s.to}</h2>
+          </div>
+          <div className="p-5 space-y-5">
+            <div>
+              <p className="eyebrow text-good mb-2">Similar</p>
+              <ul className="space-y-2">
+                {s.same.map((p) => <li key={p} className="flex gap-3 text-[15px] leading-relaxed"><Check size={16} className="text-good shrink-0 mt-1" />{p}</li>)}
+              </ul>
+            </div>
+            <div className="rounded-xl bg-gold-soft p-4">
+              <p className="eyebrow text-ink/70 mb-2">Camp facilitation adds</p>
+              <ul className="space-y-2">
+                {s.adds.map((p) => <li key={p} className="flex gap-3 text-[15px] leading-relaxed"><Plus size={16} className="shrink-0 mt-1" />{p}</li>)}
+              </ul>
+            </div>
+          </div>
         </section>
       )
     default:
