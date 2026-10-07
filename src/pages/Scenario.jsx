@@ -61,7 +61,7 @@ function ScenarioBody({ s }) {
             <ul className="mt-2 space-y-2">
               {s.consider.map((c) => <li key={c} className="flex gap-2.5 text-[15px] leading-relaxed"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-ink shrink-0" />{c}</li>)}
             </ul>
-            <p className="text-xs text-ink/60 mt-3">There’s no single right answer. Discuss yours with your squad and CI.</p>
+            <p className="text-xs text-ink/60 mt-3">There’s no single right answer. Discuss yours with your fellow facilitators.</p>
           </motion.section>
           <div className="mt-5 flex flex-col sm:flex-row gap-3">
             <Button variant="ghost" className="flex-1" onClick={() => saveScenario(s.id, notes, true)}><Save size={18} /> Save my answers</Button>

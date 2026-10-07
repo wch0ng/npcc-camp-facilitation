@@ -98,6 +98,7 @@ function Block({ s }) {
       return (
         <section className="card p-5">
           <H>{s.heading}</H>
+          {s.intro && <p className="text-[15px] leading-relaxed mb-3">{s.intro}</p>}
           <div className="flex flex-wrap gap-2">
             {s.items.map((c) => <span key={c} className="rounded-full border border-line bg-surface-2 px-3 py-1.5 text-sm font-medium">{c}</span>)}
           </div>
@@ -107,6 +108,7 @@ function Block({ s }) {
       return (
         <section className="card p-5">
           <H>{s.heading}</H>
+          {s.intro && <p className="text-[15px] leading-relaxed mb-3">{s.intro}</p>}
           <ol className="space-y-3">
             {s.steps.map((p, i) => (
               <li key={p} className="flex gap-3 items-start">
@@ -190,6 +192,25 @@ function Block({ s }) {
               </tbody>
             </table>
           </div>
+        </section>
+      )
+    case 'cycle':
+      return (
+        <section className="card p-5">
+          <H>{s.heading}</H>
+          <div className="rounded-2xl border-2 border-dashed border-gold/60 p-3 pt-2">
+            <p className="eyebrow text-gold text-center mb-2">{s.outer} ↺</p>
+            <ol className="grid grid-cols-2 gap-2">
+              {/* Clockwise around the grid: 1 top-left, 2 top-right, 3 bottom-right, 4 bottom-left */}
+              {[0, 1, 3, 2].map((i) => (
+                <li key={i} className={`rounded-xl p-3 ${i % 2 ? 'bg-gold-soft' : 'bg-navy text-on-navy'}`}>
+                  <span className={`display text-xl uppercase ${i % 2 ? '' : 'text-gold'}`}>{i + 1} · {s.stages[i].title}</span>
+                  <span className="block text-sm leading-snug mt-1 opacity-85">{s.stages[i].text}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <p className="text-sm text-muted mt-3">The cycle runs 1 → 2 → 3 → 4 and back to 1. Each turn carries learning beyond the activity (transfer of learning).</p>
         </section>
       )
     default:

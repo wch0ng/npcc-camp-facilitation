@@ -24,13 +24,6 @@
   --good-soft: #dcefe3;
   --bad: #b3361f;
   --bad-soft: #f7ddd6;
-  /* VAK identity colours */
-  --vis: #2563a8;
-  --vis-soft: #dce8f6;
-  --aud: #b4541a;
-  --aud-soft: #f8e3d4;
-  --kin: #2f7d4f;
-  --kin-soft: #dcefe2;
   --shadow: 0 1px 0 rgba(20, 35, 58, 0.04), 0 8px 24px -12px rgba(20, 35, 58, 0.18);
   color-scheme: light;
 }
@@ -53,12 +46,6 @@
     --good-soft: #163a2a;
     --bad: #f0866d;
     --bad-soft: #432018;
-    --vis: #7fb0ea;
-    --vis-soft: #1a2f4c;
-    --aud: #f0a26b;
-    --aud-soft: #43291a;
-    --kin: #74cf98;
-    --kin-soft: #183a27;
     --shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
     color-scheme: dark;
   }
@@ -81,12 +68,6 @@
   --color-good-soft: var(--good-soft);
   --color-bad: var(--bad);
   --color-bad-soft: var(--bad-soft);
-  --color-vis: var(--vis);
-  --color-vis-soft: var(--vis-soft);
-  --color-aud: var(--aud);
-  --color-aud-soft: var(--aud-soft);
-  --color-kin: var(--kin);
-  --color-kin-soft: var(--kin-soft);
   --shadow-card: var(--shadow);
   --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;

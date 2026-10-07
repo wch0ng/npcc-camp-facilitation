@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
-import { Flag, HeartHandshake, Users, MessagesSquare, RefreshCcw, Presentation, ClipboardList, BookOpen } from 'lucide-react'
+import { Tent, Flag, ShieldAlert, RefreshCcw, MessagesSquare, BookOpen } from 'lucide-react'
 import { MODULES } from '../data/modules'
 import { useProgress } from '../hooks/useProgress'
 import { Page, PageHeader, Bar } from '../components/ui'
 
-const ICONS = { Flag, HeartHandshake, Users, MessagesSquare, RefreshCcw, Presentation, ClipboardList }
+const ICONS = { Tent, Flag, ShieldAlert, RefreshCcw, MessagesSquare }
 
 export default function Learn() {
   const { progress } = useProgress()
   const read = MODULES.filter((m) => progress.modules[m.id]).length
   return (
     <Page>
-      <PageHeader eyebrow="Course content" title="Learn" subtitle="Six modules from the Leadership & Mentoring Skills Course." />
+      <PageHeader eyebrow="Course content" title="Learn" subtitle="Five modules from the Camp Facilitator Training notes." />
       <div className="flex items-center gap-3 mb-6">
         <Bar value={read} max={MODULES.length} className="flex-1" />
         <span className="text-sm text-muted font-medium">{read}/{MODULES.length} read</span>
