@@ -8,6 +8,8 @@ import Practice from './pages/Practice'
 import FlashCards from './pages/FlashCards'
 import Scenarios from './pages/Scenarios'
 import Scenario from './pages/Scenario'
+import Games from './pages/Games'
+import Game from './pages/Game'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
             <Route path="practice/flashcards" element={<FlashCards />} />
             <Route path="practice/scenarios" element={<Scenarios />} />
             <Route path="practice/scenarios/:id" element={<Scenario />} />
+            <Route path="games" element={<Games />} />
+            <Route path="games/:id" element={<Game />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>

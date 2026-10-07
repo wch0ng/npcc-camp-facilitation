@@ -216,6 +216,53 @@ export const SCENARIO_GROUPS = [
     ],
   },
   {
+    id: 'games',
+    title: 'Running camp games',
+    blurb: 'Handle the moments that happen during games.',
+    module: 'games',
+    scenarios: [
+      {
+        id: 'gm1', title: 'Situation 1 · No blindfold for me',
+        text: 'You are running Minefield. One camper refuses to wear the blindfold and says they are scared. Their partner is getting impatient, and others are starting to tease them.',
+        prompts: [
+          { id: 'do', label: 'What do you do?' },
+          { id: 'team', label: 'How do you handle the teasing?' },
+        ],
+        consider: [
+          'Challenge by choice: the blindfold is optional. The camper can close their eyes, or be the guide instead.',
+          'Stop the teasing at once. Remind the group of the rules you briefed, and that everyone chooses their own level of challenge.',
+          'Use it in the debrief: “How did it feel to rely on someone else?” and “How can we support each other?”',
+        ],
+      },
+      {
+        id: 'gm2', title: 'Situation 2 · Thunder in the distance',
+        text: 'Your squad is halfway through the outdoor station rotation. You hear thunder and see lightning in the distance. The Activity Leader wants to finish the current game first.',
+        prompts: [
+          { id: 'now', label: 'What should happen right now?' },
+          { id: 'plan', label: 'Which games could you switch to indoors?' },
+        ],
+        consider: [
+          'Lightning means stop all outdoor activities and move indoors at once. Finishing the game is not a reason to stay out.',
+          'Do a headcount when you reach shelter, and inform the Camp Organisers.',
+          'Follow the Camp OIC’s decision. Switch to bad-weather games such as Magic Hoop, Puzzle Me or Loop the Loop.',
+        ],
+      },
+      {
+        id: 'gm3', title: 'Situation 3 · Blamed for the points',
+        text: 'Your squad came last in Magic Hoop. As you walk to the next station, two campers blame another camper loudly for losing the points.',
+        prompts: [
+          { id: 'now', label: 'What do you do right now?' },
+          { id: 'debrief', label: 'Which questions would you ask in the debrief?' },
+        ],
+        consider: [
+          'Address it straight away, calmly. Blaming goes against the squad’s goals.',
+          'Debrief: “What went on?” · “How did it feel when the result was bad?” · “What could the squad do differently next time?”',
+          'Praise effort and improvement, not only points. Remind the squad of the traits they wrote in Objective Setting.',
+        ],
+      },
+    ],
+  },
+  {
     id: 'self',
     title: 'Self-reflection',
     blurb: 'Which hats and qualities will you bring to camp?',

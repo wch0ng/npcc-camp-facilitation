@@ -1,12 +1,13 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
-import { Home, BookOpen, Target } from 'lucide-react'
+import { Home, BookOpen, Target, Dices } from 'lucide-react'
 import Logo from './Logo'
 
 const TABS = [
   { to: '/', label: 'Home', icon: Home },
   { to: '/learn', label: 'Learn', icon: BookOpen },
   { to: '/practice', label: 'Practice', icon: Target },
+  { to: '/games', label: 'Games', icon: Dices },
 ]
 
 export default function AppShell() {
