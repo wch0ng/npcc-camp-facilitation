@@ -470,7 +470,7 @@ export const MODULES = [
           ['After the ice-breakers', 'Team identity & goals', 'Objective Setting, Making a Mark (design your group flag)'],
           ['Waiting or between activities', 'Energisers', 'Count 33, Charades, Warp Speed'],
           ['Main programme / station rotation', 'Team building, leadership & communication', 'Key Puncher, Marble Down, Minefield, Human Telephone'],
-          ['Last day', 'Camp finale', 'Battle of the Fort'],
+          ['Last day', 'Camp finale', 'Operation Retake'],
           ['Rain, lightning or haze', 'Bad-weather games', 'Magic Hoop, Puzzle Me, Loop the Loop'],
         ],
       },
@@ -503,7 +503,7 @@ export const MODULES = [
           'Points can motivate, but the debrief is where the learning happens. Never skip it to save time for scoring.',
           'Praise effort, teamwork and improvement, not only the winners.',
           'If a squad starts blaming someone over points, address it in the debrief.',
-          'Points can feed into a finale, e.g. more water bombs for Battle of the Fort.',
+          'Points can feed into a finale, e.g. more water bombs for Operation Retake.',
         ],
       },
       {
