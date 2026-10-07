@@ -107,6 +107,7 @@ export const SCENARIO_GROUPS = [
           'People: the back injury is a physical risk; fear is an emotional risk.',
           'Challenge by choice: participants decide their own level of challenge.',
           'Treat the risk for the group (spotters, briefing, safety considerations) and decide separately for the injured participant.',
+          'If a qualified Instructor runs the activity, tell them about the injury and the fears before it starts. They are in charge of safety during the activity.',
         ],
       },
     ],
@@ -193,20 +194,20 @@ export const SCENARIO_GROUPS = [
           { id: 'prevent', label: 'How could this have been prevented?' },
         ],
         consider: [
-          'Follow the standard procedure for a lost person: get the group to backtrack, and inform your facilitator head or IC.',
+          'Follow the standard procedure for a lost person: get the group to backtrack, and inform the Camp Organisers.',
           'Keep the rest of the group together while you search. Don’t lose a second camper.',
           'Prevention: do a roll-call after each activity, and position yourself so you can see the whole group while moving.',
         ],
       },
       {
         id: 'cc2', title: 'Situation 2 · The game that won’t end',
-        text: 'You are the game master at a station. The group is close to solving the challenge, but they are already 10 minutes over time. The next group is waiting, and the group’s facilitator is checking the watch.',
+        text: 'You are the Activity Leader at a station. The group is close to solving the challenge, but they are already 10 minutes over time. The next group is waiting, and the group’s facilitator is checking the watch.',
         prompts: [
           { id: 'do', label: 'What do you do?' },
           { id: 'debrief', label: 'Which questions would you use in a quick debrief?' },
         ],
         consider: [
-          'Keep games within their time. If a game runs over, stop it, debrief the group and let them move on.',
+          'Keep each activity within its time. If it runs over, stop it, debrief the group and let them move on.',
           'A short debrief still helps: try “What went on?” and “What would you do differently to be successful?”',
           'The facilitator’s duty is to keep the sub-group on time, so work with them. The whole programme depends on it.',
           'Before the next group: make sure the station’s equipment is reset and accounted for.',
