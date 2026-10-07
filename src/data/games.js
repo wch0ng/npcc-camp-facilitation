@@ -32,7 +32,6 @@ export const GAMES = [
       'Continue until everyone has had a turn.',
     ],
     safety: ['Wind loosely so the string doesn’t cut off circulation.', 'Give simple prompts so shy campers know what to say.'],
-    npcc: ['Prompts: name, class, why you joined NPCC, and one thing you hope to do at camp.'],
     debrief: [
       'What did you learn about someone that surprised you?',
       'How did it feel to keep talking until the string ran out?',
@@ -56,7 +55,6 @@ export const GAMES = [
       'Purple: your favourite thing on earth.',
     ],
     safety: ['Check for allergies and halal or dietary needs before using sweets.', 'If unsure, use coloured beads or cards instead.'],
-    npcc: ['Green can be something you want to achieve in NPCC this year.'],
     debrief: [
       'What do you have in common with others in your squad?',
       'Which goal did you hear that you could help someone with?',
@@ -79,7 +77,6 @@ export const GAMES = [
       'The person who loses joins the other team.',
     ],
     safety: ['Drop the sheet, don’t throw it.', 'Keep it light-hearted: help anyone who forgets a name.'],
-    npcc: ['Play after Rolling String or Candy Code, so names are fresh.'],
     debrief: ['How many names do you know now?', 'What helped you remember them?'],
   },
   {
@@ -98,7 +95,6 @@ export const GAMES = [
       'Example: “One day, I baked some chocolate cookies.” → “My brother ate all the cookies.” → “I was very angry and…”',
     ],
     safety: ['Keep stories kind. No stories that make fun of anyone in the group.'],
-    npcc: ['Start with a camp story, e.g. “On the first night of camp, our tent…”'],
     debrief: ['Was it hard to build on someone else’s idea?', 'How is that like working in a team?'],
   },
   {
@@ -117,7 +113,6 @@ export const GAMES = [
       'Prompts: salute · stand at attention · a police officer directing traffic · pitching a tent · heart shape · cool pose · flipping a pancake · tired / shocked / thinking · kung fu master · one dance move · a pose that represents your squad.',
     ],
     safety: ['Make sure there are no sharp objects around and there is enough space.', 'Use prompts about actions, not about people in the group.'],
-    npcc: ['Prompts that single out individuals (e.g. “point at the youngest”) are left out, so no one is embarrassed.'],
     points: '2 points per successful match, up to 30 points.',
     debrief: ['Were you surprised how often you matched?', 'What does it tell you about how well you know your squad?'],
   },
@@ -137,7 +132,6 @@ export const GAMES = [
       'The game ends when the squad reaches 33 with no mistakes.',
     ],
     safety: ['Keep it encouraging. No blaming the person who made a mistake.'],
-    npcc: ['Try it again later in camp and see if the squad is faster.'],
     debrief: ['What helped the squad get further each time?', 'How did you react when someone made a mistake?'],
   },
   {
@@ -155,7 +149,6 @@ export const GAMES = [
       'Topics: marching · saluting · pitching a tent · building a campfire · bandaging an arm · rock climbing · paddling a canoe · directing traffic · flying a kite · baking bread · scuba diving · playing chess · making a pizza.',
     ],
     safety: ['Make sure there is enough space for actions.'],
-    npcc: ['NPCC and camp actions are added to the original list.'],
     debrief: ['What made some actions easier to guess?', 'How does body language help when you give instructions?'],
   },
   {
@@ -174,7 +167,6 @@ export const GAMES = [
       'Variation 3: pass 4 balls.',
     ],
     safety: ['Make sure there are no sharp objects around and there is enough space.'],
-    npcc: ['Run it again at the end of camp to see how much the squad has improved.'],
     points: 'Under 5 seconds: 10 points. Over 5 seconds: 5 points.',
     debrief: ['How did you cut your time?', 'Who suggested the idea that worked, and did everyone listen?'],
   },
@@ -194,7 +186,6 @@ export const GAMES = [
       'Paste the paper up at your squad’s base so everyone sees it during camp.',
     ],
     safety: ['Make sure every camper has a chance to contribute.'],
-    npcc: ['Link the goals to SMART goals from LMSC.', 'Everyone signs the paper as a commitment.'],
     debrief: ['Which trait matters most to you, and why?', 'How will we remind each other of our goals during camp?'],
   },
   {
@@ -212,7 +203,6 @@ export const GAMES = [
       'Lay the items out to form the flag, and explain what each part means to the group.',
     ],
     safety: ['No sharp objects.', 'Make sure there is enough space.', 'No taking off shoes or shoelaces.'],
-    npcc: ['Keep a photo of the design, and use it as your group’s flag for the rest of camp.'],
     points: 'Successful completion: 30 points.',
     debrief: ['What does your flag say about your group?', 'Did everyone’s item matter? Why?'],
   },
@@ -232,7 +222,6 @@ export const GAMES = [
       'The squad has 1 minute to discuss and answer.',
     ],
     safety: ['Everyone should be seated comfortably with a clear view.'],
-    npcc: ['Use printed pictures if there is no projector.', 'Use camp or NPCC pictures, e.g. a campsite or a parade.'],
     points: '5 points per correct answer.',
     debrief: [
       'What did you feel when you first saw the picture?',
@@ -260,7 +249,6 @@ export const GAMES = [
       'Form as many words as possible in 10 minutes, e.g. NPCC, CADET, TEAM, LEADER.',
     ],
     safety: ['Leave enough space to run in and out of the play area.', 'Touch by hand only.', 'Foam pads may be slippery. Step carefully.'],
-    npcc: ['Use NPCC and camp words.'],
     debrief: [
       'Was someone leading the game? Why did that happen?',
       'Is it important to have someone leading? Why?',
@@ -286,7 +274,6 @@ export const GAMES = [
       'Play in shade or at a cooler time, with water breaks.',
       'Challenge by choice: anyone can turn the rope instead of jumping.',
     ],
-    npcc: ['Count in unison, like a drill command, to keep timing.'],
     points: 'If 10 jumps aren’t reached, score the highest number of jumps in a row.',
     debrief: [
       'Were you able to time your jumps with the group? What were the challenges, and how did you solve them?',
@@ -313,7 +300,6 @@ export const GAMES = [
       'The game ends when all marbles are moved or time runs out.',
     ],
     safety: ['Pick up dropped marbles straight away. They are a slipping hazard.'],
-    npcc: ['Use it to talk about learning, unlearning and relearning a method.'],
     debrief: [
       'Did everyone have a different way, or did you agree on one way?',
       'How did you feel when someone dropped a marble?',
@@ -342,7 +328,6 @@ export const GAMES = [
       'No touching the ping pong ball.',
       'Wet ground is slippery. Play on grass or a non-slip surface, away from electrical points.',
     ],
-    npcc: ['Good for hot days. Have towels ready.'],
     debrief: [
       'You made a plan before starting. How did it help?',
       'How did the squad overcome problems?',
@@ -365,7 +350,6 @@ export const GAMES = [
       'Level 2: same, but everyone faces outwards.',
     ],
     safety: ['One hand only.', 'Do not hit the ball through the sheet.'],
-    npcc: ['Use Level 2 to talk about trusting teammates you can’t see.'],
     debrief: [
       'Did your plan change as you went? Why?',
       'What did the squad do to improve its process?',
@@ -389,7 +373,6 @@ export const GAMES = [
       'Extra challenges: go anti-clockwise, then with two hoops going in different directions.',
     ],
     safety: ['No fingers or thumbs to move the hoop.', 'Don’t let go of hands.', 'Move gently. Mind shoulders and necks.'],
-    npcc: ['Can be played in mixed or single-gender groups, depending on what the squad is comfortable with.'],
     debrief: [
       'What did your squad do to get faster?',
       'Did you agree on a fixed way of doing it? Did that help?',
@@ -414,7 +397,6 @@ export const GAMES = [
       'Support the hoop with one finger only. No curling fingers or using palms.',
       'All fingers must be on the hoop at all times. If anyone’s finger leaves the hoop, restart (the timer keeps running).',
     ],
-    npcc: ['A good game for practising “one person speaks at a time”.'],
     points: 'Top 5 groups by time: 50, 40, 30, 20, 10 points.',
     debrief: [
       'What were the difficulties and feelings while playing?',
@@ -441,7 +423,6 @@ export const GAMES = [
       'Keep your finger on your piece until the puzzle is solved. If a piece is left untouched, restart.',
       'No lifting pieces.',
     ],
-    npcc: ['Use a picture of NPCC, the school or the camp.'],
     points: 'No hints: 50 points. One hint: 40 points. More hints: 30 points. Not completed: 0.',
     debrief: [
       'Was every piece needed to complete the picture?',
@@ -464,7 +445,6 @@ export const GAMES = [
       'Each letter must be a capital, the same size, and use every member of the squad.',
     ],
     safety: ['No sign language.', 'Take care not to hurt yourself if a letter is hard to make.', 'If you are not feeling well, tell the Activity Leader or facilitator.'],
-    npcc: ['Take a photo of each word for the squad.'],
     points: 'Up to 30 points.',
     debrief: ['How did you decide on the shapes?', 'Whose ideas were used? Were quieter members heard?'],
   },
@@ -487,7 +467,6 @@ export const GAMES = [
       'Use flat, non-slip ground. Stop at once if anyone is uncomfortable.',
       'Challenge by choice: close contact is optional, and anyone can be the timekeeper instead.',
     ],
-    npcc: ['Play in mixed or single-gender groups, depending on what the squad is comfortable with.'],
     debrief: ['How did you make sure everyone was included?', 'How did you look after each other’s safety?'],
   },
   {
@@ -508,7 +487,6 @@ export const GAMES = [
       'Stop at once if anyone is hurt.',
       'Challenge by choice: close contact is optional, and play in single-gender groups if preferred.',
     ],
-    npcc: ['Watch who takes the lead. It makes a good debrief.'],
     debrief: ['Who took the lead? How did that happen?', 'How were instructions given? Did everyone listen?', 'When did you feel like giving up, and what kept you going?'],
   },
   {
@@ -532,7 +510,6 @@ export const GAMES = [
       'Blindfolds are optional (challenge by choice): campers can close their eyes instead. Use a clean blindfold for each person.',
       'A facilitator walks near the field as a spotter.',
     ],
-    npcc: ['Use it to talk about giving clear, precise instructions, like commands in drills.'],
     debrief: [
       'You made a plan before starting. How did it help?',
       'How did you feel when a teammate was struggling to get across?',
@@ -557,7 +534,6 @@ export const GAMES = [
       'The last person says or draws the message.',
     ],
     safety: ['Keep the line spaced out so players don’t bump into each other when turning.'],
-    npcc: ['Use messages like real instructions, e.g. “Fall in at the parade square at 0700 in PT kit.”'],
     points: 'Fastest correct teams score: 50, 40, 30, 20, 10 points.',
     debrief: [
       'When do you need to pass information to someone?',
@@ -581,7 +557,6 @@ export const GAMES = [
       'Keep away from unsafe areas such as slides, drains or roads.',
       'Don’t hide items anywhere that needs climbing.',
     ],
-    npcc: ['Use your group flag from Making a Mark as the emblem.'],
     points: '5 points per emblem found, 20 points for all 4.',
     debrief: ['How did you split up the work? Who decided?', 'Was anyone left out?', 'How did you keep in contact while searching?'],
   },
@@ -617,7 +592,6 @@ export const GAMES = [
       'Facilitators are posted at set locations. Camp Organisers roam for safety.',
       'First aider on standby, water breaks, and clear up every balloon piece afterwards.',
     ],
-    npcc: ['Theme it as an NPCC “operation”: squads work together to retake the base.'],
     debrief: ['How did different squads work together?', 'What roles did your squad use, and did they work?', 'What did you learn about planning together under pressure?'],
   },
 ]

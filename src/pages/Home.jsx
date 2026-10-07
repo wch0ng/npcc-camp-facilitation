@@ -59,7 +59,9 @@ export default function Home() {
           ))}
         </ol>
 
-        <div className="mt-10 text-center">
+        <p className="mt-10 text-center text-xs text-faint max-w-md mx-auto">Some content is adapted from camp facilitator training materials from SIT SSO 2016.</p>
+
+        <div className="mt-4 text-center">
           <ConfirmButton label="Reset all progress" confirmLabel="Tap again to erase everything" onConfirm={resetAll} className="text-xs text-faint underline underline-offset-4" />
         </div>
       </Page>

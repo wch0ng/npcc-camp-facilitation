@@ -1,5 +1,5 @@
 import { useParams, Navigate } from 'react-router-dom'
-import { ArrowRight, Clock, Users, Package, ShieldCheck, Lightbulb, Target, MessagesSquare, Trophy } from 'lucide-react'
+import { ArrowRight, Clock, Users, Package, ShieldCheck, Target, MessagesSquare, Trophy } from 'lucide-react'
 import { GAMES, gameById, categoryById } from '../data/games'
 import { Page, PageHeader, Button } from '../components/ui'
 
@@ -43,13 +43,6 @@ export default function Game() {
         <h2 className="display uppercase text-[1.6rem] mb-3 flex items-center gap-2"><ShieldCheck size={22} /> Rules & safety</h2>
         <ul className="space-y-2.5">
           {g.safety.map((s) => <li key={s} className="flex gap-3 text-[15px] leading-relaxed"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-bad shrink-0" />{s}</li>)}
-        </ul>
-      </section>
-
-      <section className="mt-5 rounded-2xl bg-gold-soft p-5">
-        <h2 className="display uppercase text-[1.6rem] mb-3 flex items-center gap-2"><Lightbulb size={22} /> NPCC tips</h2>
-        <ul className="space-y-2.5">
-          {g.npcc.map((s) => <li key={s} className="flex gap-3 text-[15px] leading-relaxed"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-ink shrink-0" />{s}</li>)}
         </ul>
       </section>
 
