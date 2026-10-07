@@ -350,12 +350,12 @@ export const MODULES = [
       {
         type: 'terms',
         heading: 'Who is who at camp',
-        intro: 'Tap each role to see what it does.',
+        intro: 'The camp is run by Cadet Leaders (Secondary 3 students) as Camp Organisers, Activity Leaders and Facilitators, guided by Instructors and led by the Camp OIC. Tap each role to see what it does.',
         items: [
-          { term: 'Camp OIC', def: ['The Officer-in-Charge of the camp.', 'Has overall responsibility for the camp and the final say on safety.', 'Report emergencies and serious concerns to the Camp OIC.'] },
-          { term: 'Camp Organisers', def: ['Plan and run the camp programme.', 'Your first point of contact for the programme, timings and problems with your group.'] },
-          { term: 'Activity Leaders', def: ['Lead the games and activities at each station.', 'Brief the objectives and rules, keep time and look after the station’s equipment.'] },
-          { term: 'Facilitators', def: ['Stay with their sub-group throughout the camp.', 'Look after campers’ safety, well-being and participation, and help them learn from each activity.'] },
+          { term: 'Camp OIC', def: ['The Officer-in-Charge: the main in-charge of the camp.', 'Has overall responsibility for the camp and the final say on safety.', 'Report emergencies and serious concerns to the Camp OIC.'] },
+          { term: 'Camp Organisers', def: ['Cadet Leaders who plan and run the camp programme.', 'Your first point of contact for the programme, timings and problems with your group.'] },
+          { term: 'Activity Leaders', def: ['Cadet Leaders who lead the games and activities at each station.', 'Brief the objectives and rules, keep time and look after the station’s equipment.'] },
+          { term: 'Facilitators', def: ['Cadet Leaders who stay with their sub-group throughout the camp.', 'Look after campers’ safety, well-being and participation, and help them learn from each activity.'] },
         ],
       },
       { type: 'part', label: 'Part 1', title: 'Facilitators' },
@@ -389,13 +389,14 @@ export const MODULES = [
       {
         type: 'text',
         heading: 'Who are the Instructors?',
-        text: 'Instructors are trained Cadet Inspectors. They guide the Cadet Leaders who run the camp: the Camp Organisers, Facilitators and Activity Leaders. Think of them as your mentors at camp.',
+        text: 'Instructors are trained Cadet Inspectors (CIs). They guide and mentor the Cadet Leaders (the Camp Organisers, Facilitators and Activity Leaders) in both planning and conducting the camp. The Camp OIC remains the main in-charge.',
       },
       {
         type: 'points',
         heading: 'Working with Instructors',
         points: [
-          'Go to your Instructor when you are unsure: about the programme, a camper’s well-being, or a problem in your group.',
+          'During planning, go through your programme, activities, risk assessment and logistics with your Instructor.',
+          'During camp, go to your Instructor when you are unsure: about the programme, a camper’s well-being, or a problem in your group.',
           'Keep them informed. Tell them early about unwell campers, missing campers or any incident.',
           'Follow their guidance. If they change or stop an activity for safety, do it straight away.',
           'Ask for feedback. Instructors can debrief you after an activity. Use it for your own self-reflection.',
