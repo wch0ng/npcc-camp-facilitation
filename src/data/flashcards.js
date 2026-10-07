@@ -1,9 +1,9 @@
 // Flash cards drawn from the Camp Facilitator Training notes. `module` matches MODULES ids.
 export const FLASHCARDS = [
-  { id: 'f1', module: 'facilitator', front: 'What is a Camp Facilitator responsible for?', back: 'Making sure the camp runs smoothly and that every freshman has an exciting time in the camp.' },
+  { id: 'f1', module: 'facilitator', front: 'What is a Camp Facilitator responsible for?', back: 'Making sure the camp runs smoothly and that every camper has an exciting time in the camp.' },
   { id: 'f2', module: 'facilitator', front: 'Name the 12 hats a Camp Facilitator puts on.', back: 'Friend · Senior · Instructor · Facilitator · Care giver (Duty of Care) · Disciplinarian · Safety Officer · Motivator · Games Master / Referee · Role Model · Listener · Observer.' },
   { id: 'f3', module: 'facilitator', front: 'Which hat covers “Duty of Care”?', back: 'Care giver.' },
-  { id: 'f4', module: 'facilitator', front: 'What do your responsibilities as a Camp Facilitator include?', back: 'Overall supervision of your freshmen and ensuring their well-being and safety, 24 hours a day: making sure they eat meals, attend day and evening activities and get to sleep at night.' },
+  { id: 'f4', module: 'facilitator', front: 'What do your responsibilities as a Camp Facilitator include?', back: 'Overall supervision of your campers and ensuring their well-being and safety, 24 hours a day: making sure they eat meals, attend day and evening activities and get to sleep at night.' },
   { id: 'f5', module: 'facilitator', front: 'Why can a Camp Facilitator “make or break” a camp?', back: 'Camp Facilitators are at the front line of a camp.' },
   { id: 'f6', module: 'facilitator', front: 'Name the 12 characteristics of a good Camp Facilitator.', back: 'Safety consciousness · Good communication skills · Enthusiasm · Dependability · Patience · Integrity · Ability to cooperate · Sportsmanship · Open · Honest · Accountable · Confidential.' },
 

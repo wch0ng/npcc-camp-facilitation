@@ -17,7 +17,7 @@ export const MODULES = [
       {
         type: 'text',
         heading: 'Camp Facilitator',
-        text: 'Orientation camp can be a very memorable experience for any freshman. To create a positive experience for freshmen, Camp Facilitators are responsible for making sure the camp runs smoothly and that every freshman has an exciting time in the camp.',
+        text: 'Orientation camp can be a very memorable experience for any camper. To create a positive experience for campers, Camp Facilitators are responsible for making sure the camp runs smoothly and that every camper has an exciting time in the camp.',
       },
       {
         type: 'chips',
@@ -28,7 +28,7 @@ export const MODULES = [
       {
         type: 'text',
         heading: 'Your responsibilities',
-        text: 'Your responsibilities include overall supervision of your freshmen and ensuring their well-being and safety while they are enjoying the fun and rewarding experience of Orientation Camp. As a Camp Facilitator you will be with your freshmen 24 hours a day, making sure they eat meals, attend day and evening activities and are getting to sleep at night.',
+        text: 'Your responsibilities include overall supervision of your campers and ensuring their well-being and safety while they are enjoying the fun and rewarding experience of Orientation Camp. As a Camp Facilitator you will be with your campers 24 hours a day, making sure they eat meals, attend day and evening activities and are getting to sleep at night.',
       },
       {
         type: 'chips',
