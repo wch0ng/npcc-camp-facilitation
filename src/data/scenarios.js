@@ -107,7 +107,7 @@ export const SCENARIO_GROUPS = [
           'People: the back injury is a physical risk; fear is an emotional risk.',
           'Challenge by choice: participants decide their own level of challenge.',
           'Treat the risk for the group (spotters, briefing, safety considerations) and decide separately for the injured participant.',
-          'If a qualified Instructor runs the activity, tell them about the injury and the fears before it starts. They are in charge of safety during the activity.',
+          'Tell your Instructor about the injury and the fears before the activity starts, and follow their guidance.',
         ],
       },
     ],
