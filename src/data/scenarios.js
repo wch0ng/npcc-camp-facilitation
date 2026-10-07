@@ -236,7 +236,7 @@ export const SCENARIO_GROUPS = [
       },
       {
         id: 'gm2', title: 'Situation 2 · Thunder in the distance',
-        text: 'Your squad is halfway through the outdoor station rotation. You hear thunder and see lightning in the distance. The Activity Leader wants to finish the current game first.',
+        text: 'Your group is halfway through the outdoor station rotation. You hear thunder and see lightning in the distance. The Activity Leader wants to finish the current game first.',
         prompts: [
           { id: 'now', label: 'What should happen right now?' },
           { id: 'plan', label: 'Which games could you switch to indoors?' },
@@ -249,15 +249,15 @@ export const SCENARIO_GROUPS = [
       },
       {
         id: 'gm3', title: 'Situation 3 · Blamed for the points',
-        text: 'Your squad came last in Magic Hoop. As you walk to the next station, two campers blame another camper loudly for losing the points.',
+        text: 'Your group came last in Magic Hoop. As you walk to the next station, two campers blame another camper loudly for losing the points.',
         prompts: [
           { id: 'now', label: 'What do you do right now?' },
           { id: 'debrief', label: 'Which questions would you ask in the debrief?' },
         ],
         consider: [
-          'Address it straight away, calmly. Blaming goes against the squad’s goals.',
-          'Debrief: “What went on?” · “How did it feel when the result was bad?” · “What could the squad do differently next time?”',
-          'Praise effort and improvement, not only points. Remind the squad of the traits they wrote in Objective Setting.',
+          'Address it straight away, calmly. Blaming goes against the group’s goals.',
+          'Debrief: “What went on?” · “How did it feel when the result was bad?” · “What could the group do differently next time?”',
+          'Praise effort and improvement, not only points. Remind the group of the traits they wrote in Objective Setting.',
         ],
       },
     ],

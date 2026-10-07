@@ -466,7 +466,7 @@ export const MODULES = [
         heading: 'Choosing the right game',
         cols: ['When', 'Use', 'Examples'],
         rows: [
-          ['Day 1, first squad time', 'Ice-breakers', 'Rolling String, Candy Code, Blanket Game'],
+          ['Day 1, first group time', 'Ice-breakers', 'Rolling String, Candy Code, Blanket Game'],
           ['After the ice-breakers', 'Team identity & goals', 'Objective Setting, Making a Mark (design your group flag)'],
           ['Waiting or between activities', 'Energisers', 'Count 33, Charades, Warp Speed'],
           ['Main programme / station rotation', 'Team building, leadership & communication', 'Key Puncher, Marble Down, Minefield, Human Telephone'],
@@ -490,10 +490,10 @@ export const MODULES = [
         type: 'points',
         heading: 'Station rotations',
         points: [
-          'Each station has an Activity Leader. Facilitators move with their squad.',
+          'Each station has an Activity Leader. Facilitators move with their group.',
           'Plan time for briefing, play, debrief and moving to the next station.',
           'Roll-call after each station, and water breaks before and after.',
-          'At the end of the rotation, debrief the whole experience: Why did you choose that station first? Did your squad have roles? What was your squad’s best trait? Which game made your squad shine?',
+          'At the end of the rotation, debrief the whole experience: Why did you choose that station first? Did your group have roles? What was your group’s best trait? Which game made your group shine?',
         ],
       },
       {
@@ -502,7 +502,7 @@ export const MODULES = [
         points: [
           'Points can motivate, but the debrief is where the learning happens. Never skip it to save time for scoring.',
           'Praise effort, teamwork and improvement, not only the winners.',
-          'If a squad starts blaming someone over points, address it in the debrief.',
+          'If a group starts blaming someone over points, address it in the debrief.',
           'Points can feed into a finale, e.g. more water bombs for Operation Retake.',
         ],
       },
@@ -513,7 +513,7 @@ export const MODULES = [
         items: [
           { term: 'Rain', def: ['Move under shelter.', 'Switch to indoor games, or play water games only if it is safe.'] },
           { term: 'Lightning', def: ['Stop all outdoor activities and move indoors at once.', 'Switch to indoor games until the all-clear.'] },
-          { term: 'Haze', def: ['Stop strenuous outdoor activities.', 'Switch to indoor, low-exertion games so campers don’t get exhausted.', 'Activity Leaders can rotate between squads instead of squads moving.'] },
+          { term: 'Haze', def: ['Stop strenuous outdoor activities.', 'Switch to indoor, low-exertion games so campers don’t get exhausted.', 'Activity Leaders can rotate between groups instead of groups moving.'] },
           { term: 'Hot weather', def: ['Play in shade or at cooler times.', 'More water breaks, and shorter rounds.'] },
         ],
       },
