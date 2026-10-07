@@ -169,6 +169,7 @@ function Block({ s }) {
       return (
         <section className="card p-5">
           <H>{s.heading}</H>
+          {s.intro && <p className="text-sm text-muted mb-3">{s.intro}</p>}
           <div className="divide-y divide-line -mx-5">
             {s.items.map((t, i) => <TermRow key={t.term} t={t} n={s.numbered ? i + 1 : null} />)}
           </div>
