@@ -182,7 +182,7 @@ export const SCENARIO_GROUPS = [
   },
   {
     id: 'conduct',
-    title: 'Code of conduct',
+    title: 'Roles & conduct',
     blurb: 'Apply your duties and the standard procedures.',
     module: 'conduct',
     scenarios: [

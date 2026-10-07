@@ -332,8 +332,8 @@ export const MODULES = [
   {
     id: 'conduct',
     num: 6,
-    title: 'Code of Conduct',
-    tagline: 'Your duties at camp, and what to do in an emergency',
+    title: 'Roles & Conduct',
+    tagline: 'Who does what at camp, your duties, and what to do in an emergency',
     icon: 'ClipboardCheck',
     objectives: [
       'Know who is who at camp',

@@ -11,7 +11,7 @@ export default function Learn() {
   const read = MODULES.filter((m) => progress.modules[m.id]).length
   return (
     <Page>
-      <PageHeader eyebrow="Course content" title="Learn" subtitle="The Camp Facilitator Training notes and the code of conduct, plus how it all builds on LMSC." />
+      <PageHeader eyebrow="Course content" title="Learn" subtitle="The Camp Facilitator Training notes, camp roles and conduct, plus how it all builds on LMSC." />
       <div className="flex items-center gap-3 mb-6">
         <Bar value={read} max={MODULES.length} className="flex-1" />
         <span className="text-sm text-muted font-medium">{read}/{MODULES.length} read</span>
