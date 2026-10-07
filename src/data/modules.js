@@ -352,9 +352,8 @@ export const MODULES = [
         heading: 'Who is who at camp',
         intro: 'Tap each role to see what it does.',
         items: [
-          { term: 'Camp OIC', def: ['The Officer-in-Charge of the camp: a teacher officer.', 'Has overall responsibility for the camp and the final say on safety.', 'Report emergencies and serious concerns to the Camp OIC.'] },
+          { term: 'Camp OIC', def: ['The Officer-in-Charge of the camp.', 'Has overall responsibility for the camp and the final say on safety.', 'Report emergencies and serious concerns to the Camp OIC.'] },
           { term: 'Camp Organisers', def: ['Plan and run the camp programme.', 'Your first point of contact for the programme, timings and problems with your group.'] },
-          { term: 'Instructors', def: ['Qualified trainers who conduct specialised or higher-risk activities, e.g. high elements, rock wall, water activities or campcraft.', 'Run the safety briefing for their activity and are in charge of the group during it.'] },
           { term: 'Activity Leaders', def: ['Lead the games and activities at each station.', 'Brief the objectives and rules, keep time and look after the station’s equipment.'] },
           { term: 'Facilitators', def: ['Stay with their sub-group throughout the camp.', 'Look after campers’ safety, well-being and participation, and help them learn from each activity.'] },
         ],
@@ -398,18 +397,6 @@ export const MODULES = [
           'Take the group back with a headcount, and debrief them after the activity if time allows.',
         ],
       },
-      {
-        type: 'table',
-        heading: 'Who does what',
-        cols: ['Duty', 'Facilitator', 'Activity Leader', 'Instructor'],
-        rows: [
-          ['Briefing', 'Makes sure the group understands', 'Delivers instructions and objectives', 'Gives the technical and safety briefing'],
-          ['Safety', 'Headcount, water breaks, well-being', 'Keeps the station safe', 'In charge of safety during the activity'],
-          ['Logistics', 'Helps keep equipment in order', 'Sets up, packs, accounts for all equipment', 'Provides and checks specialist equipment'],
-          ['Time', 'Gets the group to every activity on time', 'Keeps the activity within its time', 'Runs the activity to its planned time'],
-          ['Learning', 'Debriefs and watches group dynamics', 'Debriefs if the activity stops early', 'Coaches the skill'],
-        ],
-      },
       { type: 'part', label: 'Part 4', title: 'Standard procedures' },
       {
         type: 'terms',
@@ -418,7 +405,7 @@ export const MODULES = [
         items: [
           { term: 'Someone is lost', def: ['Applies if the whole group, or a single member, is lost.', 'Get the group to backtrack.', 'Inform the Camp Organisers. If it happens during an Instructor-led activity, tell the Instructor too.'] },
           { term: 'Fire', def: ['Stop all activities immediately. During an Instructor-led activity, follow the Instructor’s directions.', 'Exit the building and assemble at the designated assembly area.', 'Report your group’s strength (headcount) to the Camp Organisers immediately.'] },
-          { term: 'Something feels wrong', def: ['If a programme feels uncomfortable, or you see inappropriate behaviour, report it straight away.', 'Contact the Camp OIC (a teacher officer).'] },
+          { term: 'Something feels wrong', def: ['If a programme feels uncomfortable, or you see inappropriate behaviour, report it straight away.', 'Contact the Camp OIC.'] },
         ],
       },
       {
