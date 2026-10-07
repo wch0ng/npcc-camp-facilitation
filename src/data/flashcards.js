@@ -73,6 +73,8 @@ export const FLASHCARDS = [
   { id: 'g4', module: 'games', front: 'Lightning is reported. What happens to outdoor games?', back: 'Stop all outdoor activities, move indoors at once, and switch to indoor games until the all-clear.' },
   { id: 'g5', module: 'games', front: 'What do you do in haze?', back: 'Stop strenuous outdoor activities and switch to indoor, low-exertion games.' },
   { id: 'g6', module: 'games', front: 'Points vs debrief: which comes first?', back: 'The debrief. Points can motivate, but the learning happens in the debrief. Never skip it for scoring.' },
+  { id: 'g7', module: 'games', front: 'Sample point system: station result points by rank', back: '1st 50 · 2nd 40 · 3rd 30 · 4th 20 · 5th and below 10. Plus completion +20, teamwork & spirit up to +10, punctuality +5, debrief +5, and −10 for each safety breach or cheating.' },
+  { id: 'g8', module: 'games', front: 'When does the Activity Leader score a station?', back: 'After the debrief, never before, so the debrief isn’t rushed.' },
   { id: 'b1', module: 'lmsc', front: 'LMSC’s What? So What? Now What? matches which Kolb stages?', back: 'Reviewing (What?) · Concluding (So What?) · Planning (Now What?).' },
   { id: 'b2', module: 'lmsc', front: 'LMSC wraps up with the Sandwich Method. How does camp facilitation wrap up?', back: 'With consolidating questions, e.g. “What were the plus / minus points?”, so campers judge for themselves.' },
   { id: 'b3', module: 'lmsc', front: 'Which MOI step matches the area activity check?', back: 'Formation: comfort, avoid facing the sun, ventilation, a safe place. The area check covers sun / shade / shelter, suitability, comfort and danger.' },

@@ -507,6 +507,32 @@ export const MODULES = [
         ],
       },
       {
+        type: 'table',
+        heading: 'Sample point system',
+        cols: ['Category', 'How points are earned', 'Points'],
+        rows: [
+          ['Station result', 'Rank the groups at each station using the game’s own score or time', '50 / 40 / 30 / 20 / 10 (1st to 5th and below)'],
+          ['Completion', 'The group completes the challenge within the time', '+20'],
+          ['Teamwork & spirit', 'Everyone takes part, members encourage each other, good sportsmanship', '0 to +10'],
+          ['Punctuality', 'The group arrives at the station on time', '+5'],
+          ['Debrief', 'Every member shares at least once in the debrief', '+5'],
+          ['Safety & conduct', 'Breaking a safety rule or cheating (address it in the debrief too)', '−10 each time'],
+        ],
+      },
+      {
+        type: 'steps',
+        heading: 'Using the point system',
+        intro: 'Example: Group A comes 2nd at Magic Hoop (40), completes it (+20), shows good spirit (+8), arrives on time (+5) and everyone shares in the debrief (+5). Station total: 78 points.',
+        steps: [
+          'Brief the point system to all groups at the start of the rotation, so everyone knows how to earn points.',
+          'The Activity Leader scores each station after the debrief, never before, so the debrief isn’t rushed.',
+          'The Activity Leader records the points on the station scoresheet and hands it to the Camp Organisers.',
+          'The Camp Organisers total the points and announce the standings at the end of the day.',
+          'If two groups tie, the higher teamwork & spirit total wins.',
+          'For the finale, convert points to water bombs for Operation Retake, e.g. 1 water bomb per 10 points, up to 400.',
+        ],
+      },
+      {
         type: 'terms',
         heading: 'Bad-weather plan',
         intro: 'Always follow the Camp OIC’s decision and the camp’s weather rules.',
