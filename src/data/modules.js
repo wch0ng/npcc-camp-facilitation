@@ -466,12 +466,12 @@ export const MODULES = [
         heading: 'Choosing the right game',
         cols: ['When', 'Use', 'Examples'],
         rows: [
-          ['Day 1, first group time', 'Ice-breakers', 'Rolling String, Candy Code, Blanket Game'],
-          ['After the ice-breakers', 'Team identity & goals', 'Objective Setting, Making a Mark (design your group flag)'],
+          ['Day 1, first group time', 'Ice-Breakers', 'Rolling String, Candy Code, Blanket Game'],
+          ['After the ice-breakers', 'Team Identity & Goals', 'Objective Setting, Making a Mark (design your group flag)'],
           ['Waiting or between activities', 'Energisers', 'Count 33, Charades, Warp Speed'],
-          ['Main programme / station rotation', 'Team building, leadership & communication', 'Key Puncher, Marble Down, Minefield, Human Telephone'],
-          ['Last day', 'Camp finale', 'Operation Retake'],
-          ['Rain, lightning or haze', 'Bad-weather games', 'Magic Hoop, Puzzle Me, Loop the Loop'],
+          ['Main programme / station rotation', 'Team Building, Leadership & Communication', 'Key Puncher, Marble Down, Minefield, Human Telephone'],
+          ['Last day', 'Camp Finale', 'Operation Retake'],
+          ['Rain, lightning or haze', 'Bad Weather', 'Magic Hoop, Puzzle Me, Loop the Loop'],
         ],
       },
       {

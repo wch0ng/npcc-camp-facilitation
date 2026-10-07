@@ -5,14 +5,14 @@
 // `cats`: first entry is the main category. `indoor`: suitable for the bad-weather plan.
 
 export const CATEGORIES = [
-  { id: 'icebreaker', label: 'Ice-breakers', icon: 'Snowflake', blurb: 'Learn names and get everyone talking. Best on day 1.' },
+  { id: 'icebreaker', label: 'Ice-Breakers', icon: 'Snowflake', blurb: 'Learn names and get everyone talking. Best on day 1.' },
   { id: 'energiser', label: 'Energisers', icon: 'Zap', blurb: 'Short games for gaps between activities or waiting time.' },
-  { id: 'identity', label: 'Team identity & goals', icon: 'Flag', blurb: 'Build group identity and set goals together.' },
-  { id: 'teambuilding', label: 'Team building', icon: 'Puzzle', blurb: 'Problem-solving challenges for station rotations.' },
-  { id: 'leadership', label: 'Leadership & communication', icon: 'Megaphone', blurb: 'Who leads, how instructions are given, and delegation.' },
+  { id: 'identity', label: 'Team Identity & Goals', icon: 'Flag', blurb: 'Build group identity and set goals together.' },
+  { id: 'teambuilding', label: 'Team Building', icon: 'Puzzle', blurb: 'Problem-solving challenges for station rotations.' },
+  { id: 'leadership', label: 'Leadership & Communication', icon: 'Megaphone', blurb: 'Who leads, how instructions are given, and delegation.' },
   { id: 'trust', label: 'Trust', icon: 'HeartHandshake', blurb: 'Relying on and looking out for each other.' },
-  { id: 'finale', label: 'Camp finale', icon: 'Trophy', blurb: 'A whole-camp game to bring all groups together.' },
-  { id: 'badweather', label: 'Bad weather', icon: 'CloudRain', blurb: 'Indoor, low-exertion games for rain, lightning or haze.' },
+  { id: 'finale', label: 'Camp Finale', icon: 'Trophy', blurb: 'A whole-camp game to bring all groups together.' },
+  { id: 'badweather', label: 'Bad Weather', icon: 'CloudRain', blurb: 'Indoor, low-exertion games for rain, lightning or haze.' },
 ]
 
 export const GAMES = [
