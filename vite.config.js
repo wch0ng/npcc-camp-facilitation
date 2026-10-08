@@ -15,7 +15,7 @@ export default defineConfig({
       includeAssets: ['icons/*.png'],
       manifest: {
         name: 'HS NPCC Camp Facilitation',
-        short_name: 'NPCC Camp',
+        short_name: 'HSNPCC Camp',
         description: 'Interactive companion for NPCC camp facilitation',
         theme_color: '#13294b',
         background_color: '#f4f1ea',
