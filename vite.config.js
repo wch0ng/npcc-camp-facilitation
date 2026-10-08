@@ -14,7 +14,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/*.png'],
       manifest: {
-        name: 'NPCC Camp Facilitation',
+        name: 'HS NPCC Camp Facilitation',
         short_name: 'NPCC Camp',
         description: 'Interactive companion for NPCC camp facilitation',
         theme_color: '#13294b',
